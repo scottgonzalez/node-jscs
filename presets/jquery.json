@@ -4,6 +4,8 @@
     "disallowMixedSpacesAndTabs": "smart",
     "disallowMultipleLineBreaks": true,
     "disallowMultipleLineStrings": true,
+    "disallowMultipleSpaces": true,
+    "disallowOperatorBeforeLineBreak": [ "." ],
     "disallowSpaceAfterObjectKeys": true,
     "disallowSpaceAfterPrefixUnaryOperators": true,
     "disallowSpaceBeforeBinaryOperators": [ ",", ":" ],
@@ -11,10 +13,8 @@
     "disallowSpacesInAnonymousFunctionExpression": {
         "beforeOpeningRoundBrace": true
     },
-    "disallowSpacesInFunctionExpression": {
-        "beforeOpeningRoundBrace": true
-    },
-    "disallowSpacesInNamedFunctionExpression": {
+    "disallowSpacesInCallExpression": true,
+    "disallowSpacesInFunction": {
         "beforeOpeningRoundBrace": true
     },
     "disallowTrailingComma": true,
@@ -36,11 +36,12 @@
         "try",
         "catch"
     ],
-    "requireDotNotation": "except_snake_case",
+    "requireDotNotation": true,
     "requireLineFeedAtFileEnd": true,
     "requireOperatorBeforeLineBreak": true,
     "requirePaddingNewLinesBeforeLineComments": true,
     "requireParenthesesAroundIIFE": true,
+    "requireSemicolons": true,
     "requireSpaceAfterBinaryOperators": true,
     "requireSpaceAfterKeywords": [
         "if",
@@ -53,25 +54,17 @@
         "try",
         "catch"
     ],
-    "requireSpaceBeforeBinaryOperators": [
-        "=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=",
-        "&=", "|=", "^=", "+=",
-
-        "+", "-", "*", "/", "%", "<<", ">>", ">>>", "&",
-        "|", "^", "&&", "||", "===", "==", ">=",
-        "<=", "<", ">", "!=", "!=="
-    ],
+    "requireSpaceAfterLineComment": true,
+    "requireSpaceBeforeBinaryOperators": true,
     "requireSpaceBeforeBlockStatements": true,
+    "requireSpaceBeforeObjectValues": true,
     "requireSpaceBetweenArguments": true,
     "requireSpacesInAnonymousFunctionExpression": {
         "beforeOpeningCurlyBrace": true
     },
     "requireSpacesInConditionalExpression": true,
     "requireSpacesInForStatement": true,
-    "requireSpacesInFunctionExpression": {
-        "beforeOpeningCurlyBrace": true
-    },
-    "requireSpacesInNamedFunctionExpression": {
+    "requireSpacesInFunction": {
         "beforeOpeningCurlyBrace": true
     },
     "requireSpacesInsideArrayBrackets": "all",
