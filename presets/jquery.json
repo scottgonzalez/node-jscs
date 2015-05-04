@@ -1,4 +1,32 @@
 {
+    "disallowKeywords": [ "with" ],
+    "disallowKeywordsOnNewLine": [ "else" ],
+    "disallowMixedSpacesAndTabs": "smart",
+    "disallowMultipleLineBreaks": true,
+    "disallowMultipleLineStrings": true,
+    "disallowSpaceAfterObjectKeys": true,
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "disallowSpaceBeforeBinaryOperators": [ ",", ":" ],
+    "disallowSpaceBeforePostfixUnaryOperators": true,
+    "disallowSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInNamedFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowTrailingComma": true,
+    "disallowTrailingWhitespace": true,
+    "maximumLineLength": {
+        "value": 100,
+        "tabSize": 4,
+        "allowUrlComments": true,
+        "allowRegex": true
+    },
+    "requireCamelCaseOrUpperCaseIdentifiers": true,
+    "requireCommaBeforeLineBreak": true,
     "requireCurlyBraces": [
         "if",
         "else",
@@ -8,31 +36,12 @@
         "try",
         "catch"
     ],
-    "requireOperatorBeforeLineBreak": true,
-    "requireParenthesesAroundIIFE": true,
-    "requireCommaBeforeLineBreak": true,
-    "requireCamelCaseOrUpperCaseIdentifiers": true,
     "requireDotNotation": "except_snake_case",
-    "requireSpacesInForStatement": true,
-    "requireSpaceBetweenArguments": true,
-    "maximumLineLength": {
-        "value": 100,
-        "tabSize": 4,
-        "allowUrlComments": true,
-        "allowRegex": true
-    },
-    "validateQuoteMarks": { "mark": "\"", "escape": true },
-
-    "disallowMixedSpacesAndTabs": "smart",
-    "disallowTrailingWhitespace": true,
-    "disallowMultipleLineStrings": true,
-    "disallowTrailingComma": true,
-
-    "requireSpaceBeforeBlockStatements": true,
-    "requireSpacesInFunctionExpression": {
-        "beforeOpeningCurlyBrace": true
-    },
-    "requireSpacesInsideParentheses": "all",
+    "requireLineFeedAtFileEnd": true,
+    "requireOperatorBeforeLineBreak": true,
+    "requirePaddingNewLinesBeforeLineComments": true,
+    "requireParenthesesAroundIIFE": true,
+    "requireSpaceAfterBinaryOperators": true,
     "requireSpaceAfterKeywords": [
         "if",
         "else",
@@ -44,11 +53,6 @@
         "try",
         "catch"
     ],
-    "requireSpacesInsideObjectBrackets": "all",
-    "requireSpacesInsideArrayBrackets": "all",
-    "requireSpacesInConditionalExpression": true,
-    "requireSpaceAfterBinaryOperators": true,
-    "requireLineFeedAtFileEnd": true,
     "requireSpaceBeforeBinaryOperators": [
         "=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=",
         "&=", "|=", "^=", "+=",
@@ -57,29 +61,22 @@
         "|", "^", "&&", "||", "===", "==", ">=",
         "<=", "<", ">", "!=", "!=="
     ],
+    "requireSpaceBeforeBlockStatements": true,
+    "requireSpaceBetweenArguments": true,
     "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInConditionalExpression": true,
+    "requireSpacesInForStatement": true,
+    "requireSpacesInFunctionExpression": {
         "beforeOpeningCurlyBrace": true
     },
     "requireSpacesInNamedFunctionExpression": {
         "beforeOpeningCurlyBrace": true
     },
-    "requirePaddingNewLinesBeforeLineComments": true,
+    "requireSpacesInsideArrayBrackets": "all",
+    "requireSpacesInsideObjectBrackets": "all",
+    "requireSpacesInsideParentheses": "all",
     "validateLineBreaks": "LF",
-
-    "disallowKeywords": [ "with" ],
-    "disallowKeywordsOnNewLine": [ "else" ],
-    "disallowSpacesInFunctionExpression": {
-        "beforeOpeningRoundBrace": true
-    },
-    "disallowSpacesInNamedFunctionExpression": {
-        "beforeOpeningRoundBrace": true
-    },
-    "disallowSpacesInAnonymousFunctionExpression": {
-        "beforeOpeningRoundBrace": true
-    },
-    "disallowSpaceAfterObjectKeys": true,
-    "disallowSpaceAfterPrefixUnaryOperators": true,
-    "disallowSpaceBeforePostfixUnaryOperators": true,
-    "disallowSpaceBeforeBinaryOperators": [ ",", ":" ],
-    "disallowMultipleLineBreaks": true
+    "validateQuoteMarks": { "mark": "\"", "escape": true }
 }
